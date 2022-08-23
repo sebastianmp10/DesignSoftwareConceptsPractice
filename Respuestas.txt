@@ -1,0 +1,25 @@
+
+Responda las siguientes preguntas (serán discutidas en la siguiente clase):
+
+¿Que significa que mi sistema sea modular y tenga un bajo acople?
+
+Que un sistema sea modular significa que cuenta con modelos o funciones que se encargan de tareas especificas, evitando dependencias
+entre procesos que puedan generar errores en cadena y permitiendo que sean facilices de reutilizar y mantener con el tiempo. 
+Esto permite que se puedan integrar modulos dependiendo de las necesidad. Cuando se hablen de sistemas modulares se debe hacer mencion
+a una metrica como el acople, que define que tan dependiente es un funcion de otra. Lo deseado es un bajo acoplo.
+
+¿Por qué quiero que un módulo en mi sistema tenga alta cohesión?
+
+Se desea que cada modulo tenga una alta cohesion que se refiere a que cumple una tarea en especifico simplificando las obligaciones
+esto permite que con facilidad se pueda utilizar el modulo en otra parte del sistema y tambien facilita el mantenimiento.
+
+¿Que es un monolito?
+¿Por qué no quiero diseñar mi sistema como un monolito?
+
+Un monolito es un sistema que esta integrado es un solo modulo, haciendolo un sistema independiente de otros modulos pero muy dependiente entre si
+lo que da lugar a posibles errores o dificultades si se desea cambias alguna funcion, esto tambien dificulta el mantenimiento del sistema
+y debido a la complejidad de las responsabilidades lo hace casi imposible de reutilizar en tareas diferentes.
+
+Son sistemas donde se pueden presentar muchos inconvenientes y un simple error puede danar todo el funcionamiento del sistema
+
+
